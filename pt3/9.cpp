@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long n, m;
+    cin >> n >> m;
+    cout << (n % m) * (m % n) + 1 << endl;
+    return 0;
+}
